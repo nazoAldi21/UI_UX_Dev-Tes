@@ -1,5 +1,4 @@
 import ProductListPage from "./products";
-import "./src/styles/globals.css";
 
 export default function Home() {
   return (
