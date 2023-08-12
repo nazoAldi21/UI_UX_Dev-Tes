@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { fetchProducts } from '@/utils/api';
 import { Product } from '@/types/types';
 import ProductCard from '@/components/molecules/ProductCard'; // Create this file to define the Product type.
-import '@/styles/globals.css'
 
 const ProductListPage: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
